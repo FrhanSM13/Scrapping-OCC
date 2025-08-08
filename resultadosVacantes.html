@@ -17,7 +17,8 @@
         <button onclick="render('todas')">Todas</button>
         <button onclick="render('mayor')">Mayor sueldo</button>
         <button onclick="render('menor')">Menor sueldo</button>
-        <button onclick="abrirMapa()" class="map-button">🗺️ Ver en Mapa</button>
+        <button onclick="abrirMapa()">🗺️ Ver en Mapa</button>
+        <button onclick="abrirCards()"> Acerca De </button>
       </div>
       <button onclick="goBack()" class="back-button">⤺</button>
     </aside>
@@ -100,6 +101,10 @@
 
     function abrirMapa() {
       window.open('mapa.html', '_blank');
+    }
+
+    function abrirCards() {
+      window.open('acercaDe.html','_blank');
     }
 
     render();

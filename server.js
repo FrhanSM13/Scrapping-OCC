@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { scrapeOCC } from '../scrape.js';
+import { scrapeOCC } from './scrape.js';
 import fs from 'fs';
 
 const __filename = fileURLToPath(import.meta.url);
